@@ -3,7 +3,7 @@ package trainingassignment1;
 import java.util.Scanner;
 
 public class FibonacciRecursive {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
         System.out.println("Enter the number of elements for Fibonacci series : ");
         int Num = sn.nextInt();
@@ -19,4 +19,3 @@ public class FibonacciRecursive {
             return fib(n - 1) + fib(n - 2);
     }
 }
-
